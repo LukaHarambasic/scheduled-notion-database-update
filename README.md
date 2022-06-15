@@ -1,5 +1,7 @@
 # Update notion tasks 
 
+> This repo is still in progress! But it works :)
+
 ## Goal
 
 Have a simple function that updates the status of tasks in a Notion database on defined conditions. This can easily be adapted for other automations.
@@ -26,11 +28,3 @@ The job runs every 30min and checks the edited tasks in the last 60min. If the t
 - deploy via CLI or link to github like Netlify (if possible) 
 - typescript
 - build set up
-
-
-
-Pro
-- nothing gets stored
-
-COn
-- The job runs every 30min and checks the edited tasks in the last 60min - if the task isn't executed twice some tasks which should be updated might be skipped.
