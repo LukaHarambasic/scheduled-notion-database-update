@@ -27,4 +27,4 @@ The job runs every 30min and checks the edited tasks in the last 60min. If the t
 - requirement / import
 - [deploy via CLI](https://pipedream.com/docs/components/quickstart/nodejs/actions/#) or link to github like Netlify ([check this out](https://github.com/PipedreamHQ/pipedream/blob/master/.github/workflows/publish-components.yaml))
 - typescript
-- build set up
+- local devleopment set up
