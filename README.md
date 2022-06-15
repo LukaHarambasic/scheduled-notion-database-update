@@ -8,6 +8,10 @@ Have a simple function that updates the status of tasks in a Notion database on 
 
 We are talking about a project management database that is used in a Scrum set up. For the sake of this script it is only relevant that a task has a status (Single select: Backlog > Open > In Progress > Blocked > Done) and a Sprint (Relation). If a task gets a sprint assigned the status should be changed from `Backlog` to `Open`. 
 
+## Prequesites
+
+Get your `NOTION_KEY` and the `NOTION_DATABASE_ID`. You can read more about it [here](). Don't forget to share your database with your integration otherwise you won't get anything. If you have relations you want to access you also grant your integration access to them.
+
 ## Deployment
 
 The Node.js function can be easily deployed at [Pipedream](https://pipedream.com/   ). Therefore, a trigger has to be defined, I decided to let this function run every 30 minutes. Also don't forget to add the environment variables to your [PipeDream account](https://pipedream.com/docs/environment-variables/).
