@@ -16,7 +16,7 @@ Get your `NOTION_KEY` and the `NOTION_DATABASE_ID`. You can read more about it [
 
 ## Deployment
 
-The Node.js function can be easily deployed at [Pipedream](https://pipedream.com/   ). Therefore, a trigger has to be defined, I decided to let this function run every 30 minutes. Also don't forget to add the environment variables to your [PipeDream account](https://pipedream.com/docs/environment-variables/).
+The Node.js function can be easily deployed at [Pipedream](https://pipedream.com/). Therefore, a trigger has to be defined, I decided to let this function run every 30 minutes. Also don't forget to add the environment variables to your [PipeDream account](https://pipedream.com/docs/environment-variables/).
 
 ## Potential problems
 
